@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill.b7f2da20.js";var e,o;$(document).mousemove(function(s){e=s.pageX,o=s.pageY});$(".hynl").mouseover(function(){$(".hynl").css("opacity","100%"),$(".welcome").css("visibility","visible"),$(".eng").css("left",e),$(".eng").css("top",o)});$(".hynl").mouseout(function(){$(".welcome").css("visibility","hidden"),$(".hynl").css("opacity","80%")});
