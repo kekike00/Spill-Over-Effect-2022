@@ -46,7 +46,7 @@ const textureCount = 46;
 // load all textures and have ready in array
 for (let i = 1; i <= textureCount; i++) {
   const texture = textureLoader.load(
-    "/Spill-Over-Effect-2022/docs/images/jz/image" + i + ".jpg"
+    "/Spill-Over-Effect-2022/public/images/jz/image" + i + ".jpg"
   );
   textureArray.push(texture);
 }
